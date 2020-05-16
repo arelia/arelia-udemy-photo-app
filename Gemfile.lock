@@ -239,7 +239,7 @@ DEPENDENCIES
   byebug
   capybara (>= 2.15)
   devise
-  devise-bootstrap-views
+  devise-bootstrap-views (~> 1.0)
   jbuilder (~> 2.7)
   jquery-rails
   listen (~> 3.2)
