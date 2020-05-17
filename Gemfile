@@ -10,6 +10,8 @@ gem 'devise'
 gem 'twitter-bootstrap-rails'
 gem 'devise-bootstrap-views', '~> 1.0'
 gem 'stripe'
+gem 'carrierwave'
+gem 'mini_magick'
 
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
