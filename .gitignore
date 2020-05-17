@@ -42,3 +42,6 @@ yarn-debug.log*
 
 # VS Code Favorites
 .favorites.json
+
+# Uploaded images
+/public/uploads
