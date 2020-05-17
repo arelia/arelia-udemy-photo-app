@@ -84,3 +84,10 @@
   list-style: none;
   padding-left: 0;
 }
+
+.image-wrap {
+    width: 500px;
+    height: 500px;
+    margin-bottom: 20px;
+    object-fit: contain;
+}
