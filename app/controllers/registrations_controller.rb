@@ -1,6 +1,10 @@
 class RegistrationsController < Devise::RegistrationsController
 
   def create
+
+    puts "SENDGRID_USERNAME: #{ENV['SENDGRID_USERNAME']}"
+    puts "SENDGRID_PASSWORD: #{ENV['SENDGRID_PASSWORD']}"
+
     build_resource(sign_up_params)
 
     resource.class.transaction do
